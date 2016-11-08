@@ -1,0 +1,37 @@
+---
+title: "Quiz 7 Markdown"
+author: "Mackenzie Seasons"
+date: '2016-11-08'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hypotheses (Question A)
+
+a) It is hypothesized that the population correlation between self-esteem and academic performance will result in a large positive effect according to Bosco et al. (2015).
+
+b) It is hypothesized that the relationship between self-esteem and quality of dating relationships will result in a large negative effect according to Bosco et al. (2015).
+
+c) It is hypothesized that the relationship between self-esteem and quality of friendships will result in a weak positive effect according to Bosco et al. (2015).
+
+Analysis Plan A (Question B)
+
+a) a bivariate correlation power analysis will be conducted to determine what sample size is needed to conduct a study that finds a large positive effect on self esteem and academic performance. A power analysis was conducted to reveal that for power to be .80, the sample size needed to find a large effect is *N* = 28 (significant at the *p* = .05 level)
+
+b) a bivariate correlation power analysis will be conducted to determine what sample size is needed to conduct a study that finds a large negative effect on self esteem and quality of dating relationships. A confidence interval was calculated for an *N* = 100, and a safeguard power analysis was conducted to reveal that for power to be .80, the sample size needed to find a large effect is *N* = 33 (significant at the *p* = .05 level)
+
+c) a bivariate correlation power analysis will be conducted to determine what sample size is needed to conduct a study that finds a weak positive relation between self esteem and quality of friendships. A confidence interval was calculated for an *N* = 5000, and a safeguard power analysis was conducted to reveal that for power to be .80, the sample size needed to find a large effect is *N* = 4902 (significant at the *p* = .05 level)
+
+Analysis Plan B (Question C)
+
+a) A confidence interval for a large positive effect size between self-esteem and academic performance was calculated, and it was determined that an *N*=50, 95% CI [.26, .68] ensures a confidence interval that is less than the desired population correlation of *rho* = .50.
+
+b) A confidence interval for a large negative effect size between self-esteem and quality of dating relationships was calculated, and after safeguard analysis, it was determined that an *N*=100, 95% CI [-.61, -.30] ensures a confidence interval that is less than the desired population correlation of *rho* = -.30.
+
+c) A confidence interval for a weak positive effect between self-esteem and quality of friendships was calculated using the small effect size of *r*=.07 recommended by Bosco et al. (2015), and it was determined that an *N*=6000, 95% CI [.04, .1] ensures a confidence interval that is less than the desired population correlation of *rho* = .07
+
+
+
